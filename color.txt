@@ -1,0 +1,7 @@
+Default : #3f51b5
+Kedua   : #000096   -> biru cerah
+Ketiga  : #000096  -> efootball 2022
+
+Default : #ffe186
+Yellow : #ffff01  -> efootball 2022
+

@@ -1,0 +1,30 @@
+.card-title {
+	background-color: #ffff01;
+	padding: 1rem;
+	color: #000096;
+	border-radius: 0.186rem 0.186rem 0 0;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 158px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mini-stat-icon i{
+    font-size: 30px;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+}

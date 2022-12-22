@@ -1,0 +1,7 @@
+    $('#id_module').on('change', function() {
+        if($('#id_module').val() == 0){
+            $("#operation_slug").attr("disabled", true)
+        }else{
+            $("#operation_slug").attr("disabled", false)
+        }
+    });

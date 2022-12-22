@@ -1,0 +1,1 @@
+<script src="<?= __VENDOR; ?>summernote/summernote-bs4.min.js"></script>
