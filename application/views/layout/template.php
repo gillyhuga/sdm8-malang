@@ -64,25 +64,34 @@
             <div class="topbar-area home11-topbar">
                 <div class="container">
                     <div class="row y-middle">
-                        <div class="col-md-5">
+                        <div class="col-md-7">
                             <ul class="topbar-contact">
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a>
+                                <li style="height: 8px;">
+                                    <i class="flaticon-location"></i>
+                                    Kampus 1 : <?= $setting->address; ?>
                                 </li>
                                 <li>
-                                    <i class="fa flaticon-call"></i>
-                                    <a href="tel:+<?= $setting->phone; ?>"><?= $setting->phone; ?></a>
+                                    <i class="flaticon-location"></i>
+                                    Kampus 2 : Jl. Sumpil 1 No.53B, Purwodadi, Kec. Blimbing, Kota Malang
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-7 text-end">
-                            <ul class="toolbar-sl-share">
-                                <li class="opening"> <i class="flaticon-location"></i> <?= $setting->address; ?> </li>
+                        <div class="col-md-4 ">
+                            <ul class="toolbar-sl-share" style="">
+                                <li class="opening">
+                                    <i class="flaticon-email"></i>
+                                    <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a>
+                                </li>
+                                <li class="opening">
+                                    <i class="fa flaticon-call"></i>
+                                    <a href="tel:+<?= $setting->phone; ?>"><?= $setting->phone; ?></a>
+                                </li>
+                                
                                 <li><a href="<?= $setting->facebook_url; ?>"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="<?= $setting->twitter_url; ?>"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="<?= $setting->youtube_url; ?>"><i class="fa fa-youtube"></i></a></li>
                                 <li><a href="<?= $setting->instagram_url; ?>"><i class="fa fa-instagram"></i></a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -119,11 +128,16 @@
                                             <li class="menu-item-has-children">
                                                 <a href="#">Tentang kami</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="<?= site_url('home/sambutan_kepala'); ?>">Sambutan kepala</a></li>
-                                                    <li><a href="<?= site_url('home/profil'); ?>">Profil sekolah</a></li>
-                                                    <li><a href="<?= site_url('home/budaya_sekolah'); ?>">Budaya sekolah</a></li>
-                                                    <li><a href="<?= site_url('home/visi_misi'); ?>">Visi dan Misi</a></li>
-                                                    <li><a href="<?= site_url('home/guru'); ?>">Guru dan Tenaga Pendidik</a></li>
+                                                    <li><a href="<?= site_url('home/sambutan_kepala'); ?>">Sambutan
+                                                            kepala</a></li>
+                                                    <li><a href="<?= site_url('home/profil'); ?>">Profil sekolah</a>
+                                                    </li>
+                                                    <li><a href="<?= site_url('home/budaya_sekolah'); ?>">Budaya
+                                                            sekolah</a></li>
+                                                    <li><a href="<?= site_url('home/visi_misi'); ?>">Visi dan Misi</a>
+                                                    </li>
+                                                    <li><a href="<?= site_url('home/guru'); ?>">Guru dan Tenaga
+                                                            Pendidik</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
@@ -131,14 +145,16 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="<?= site_url('home/alquran'); ?>">Alquran</a></li>
                                                     <li><a href="<?= site_url('home/ismubaris'); ?>">Ismubaris</a></li>
-                                                    <li><a href="<?= site_url('home/komite'); ?>">Komite sekolah</a></li>
+                                                    <li><a href="<?= site_url('home/komite'); ?>">Komite sekolah</a>
+                                                    </li>
                                                     <li><a href="<?= site_url('home/alumni'); ?>">ALumni</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">E-Library</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="<?= site_url('home/ebook'); ?>">Karya Guru dan Siswa</a></li>
+                                                    <li><a href="<?= site_url('home/ebook'); ?>">Karya Guru dan
+                                                            Siswa</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
@@ -159,7 +175,8 @@
                             <div class="expand-btn-inner">
                                 <ul>
                                     <li>
-                                        <a class="hidden-xs rs-search" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">
+                                        <a class="hidden-xs rs-search" data-bs-toggle="modal"
+                                            data-bs-target="#searchModal" href="#">
                                             <i class="flaticon-search"></i>
                                         </a>
                                     </li>
@@ -181,7 +198,8 @@
                     </div>
                 </div>
                 <div class="canvas-logo">
-                    <a href="index.html"><img src="<?= site_url('assets/frontend/') ?>images/logo-dark.png" alt="logo"></a>
+                    <a href="index.html"><img src="<?= site_url('assets/frontend/') ?>images/logo-dark.png"
+                            alt="logo"></a>
                 </div>
                 <div class="offcanvas-text">
                     <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo by the
@@ -189,22 +207,28 @@
                 </div>
                 <div class="offcanvas-gallery">
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/1.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/1.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/1.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/1.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/2.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/2.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/2.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/2.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/3.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/3.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/3.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/3.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/4.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/4.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/4.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/4.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/5.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/5.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/5.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/5.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/6.jpg"><img src="<?= site_url('assets/frontend/') ?>images/gallery/6.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/') ?>images/gallery/6.jpg"><img
+                                src="<?= site_url('assets/frontend/') ?>images/gallery/6.jpg" alt=""></a>
                     </div>
                 </div>
                 <div class="map-img">
@@ -296,12 +320,14 @@
                 <div class="row y-middle">
                     <div class="col-lg-4 md-mb-20">
                         <div class="footer-logo md-text-center">
-                            <a href="index.html"><img src="<?= __UPLOAD; ?>original/<?= $setting->logo; ?>" alt="<?= $setting->logo; ?>"></a>
+                            <a href="index.html"><img src="<?= __UPLOAD; ?>original/<?= $setting->logo; ?>"
+                                    alt="<?= $setting->logo; ?>"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 md-mb-20">
                         <div class="copyright text-center md-text-start">
-                            <p>&copy; <?= date('Y'); ?> All Rights Reserved. Developed By <a href="https://unimasoft.id">Unimasoft.ID</a></p>
+                            <p>&copy; <?= date('Y'); ?> All Rights Reserved. Developed By <a
+                                    href="https://unimasoft.id">Unimasoft.ID</a></p>
                         </div>
                     </div>
                     <div class="col-lg-4 text-end md-text-start">
@@ -329,7 +355,8 @@
 
 
     <!-- Search Modal Start -->
-    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+        aria-hidden="true">
         <button type="button" class="close" data-bs-dismiss="modal">
             <span class="flaticon-cross"></span>
         </button>

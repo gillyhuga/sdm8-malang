@@ -106,12 +106,12 @@
                       <div class="team-thumbnail">
                           <div class="team-img">
                               <img src="<?= __UPLOAD ?>original/<?= $obj->foto; ?>" alt="">
-                              <ul class="team-social-link">
+                              <!-- <ul class="team-social-link">
                                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                   <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              </ul>
+                              </ul> -->
                           </div>
                           <div class="team-header">
                               <h4 class="name"><a href="#" style="color:#0c8b51;"><?= $obj->nama; ?></a></h4>
