@@ -64,7 +64,7 @@
             <div class="topbar-area home11-topbar">
                 <div class="container">
                     <div class="row y-middle">
-                        <div class="col-md-7">
+                        <div class="col-md-8">
                             <ul class="topbar-contact">
                                 <li style="height: 8px;">
                                     <i class="flaticon-location"></i>
@@ -106,7 +106,7 @@
                         <div class="col-lg-2">
                             <div class="logo-cat-wrap">
                                 <div class="logo-part it-menu">
-                                    <a href="home/page">
+                                    <a href="/">
                                         <img src="<?= __UPLOAD ?>original/<?= $setting->logo; ?>" alt="">
                                     </a>
                                 </div>

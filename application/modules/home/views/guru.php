@@ -22,7 +22,7 @@
                           <div class="team-item">
                               <img src="<?= __UPLOAD; ?>thumbnail/<?= $obj->foto?>" alt="">
                               <div class="content-part">
-                                  <h4 class="name"><a href="team-single.html"><?= $obj->nama;?></a></h4>
+                                  <h4 class="name"><?= $obj->nama;?></h4>
                                   <span class="designation"><?= $obj->bidang_ilmu;?></span>
                               </div>
                           </div>

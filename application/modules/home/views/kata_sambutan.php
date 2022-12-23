@@ -15,12 +15,12 @@
   <div id="rs-about" class="rs-about style4 pt-100 pb-100 md-pt-80 md-pb-80">
       <div class="container">
           <div class="row">
-              <div class="col-lg-5 md-mb-50">
+                <div class="col-lg-5 md-mb-50">
                   <div class="img-part">
-                      <img class="about-main" src="<?= site_url('assets/frontend/') ?>images/about/home5/about-main.png" alt="About Image">
-                      <img class="circle-bg shape" src="<?= site_url('assets/frontend/') ?>images/about/home5/about-circle-bg.png" alt="About Image">
+                      <img class="about-main" style="height: 350px; left: 50%; transform: translateX(-50%);" src="<?= __UPLOAD; ?>original/<?= $kata_sambutan->foto; ?>" alt="About Image">
+                      <img class="circle-bg shape"  src="<?= site_url('assets/frontend/') ?>images/about/home5/about-circle-bg.png" alt="About Image">
                       <img class="small-circle shape animated pulse infinite" src="<?= site_url('assets/frontend/') ?>images/about/home5/small-circle-shape.png" alt="About Image">
-                      <img class="deep-bg shape" src="<?= site_url('assets/frontend/') ?>images/about/home5/about-deep-bg.png" alt="About Image">
+                      <!-- <img class="deep-bg shape"  src="<?= site_url('assets/frontend/') ?>images/about/home5/about-deep-bg.png" alt="About Image"> -->
                   </div>
               </div>
               <div class="col-lg-6 offset-lg-1">

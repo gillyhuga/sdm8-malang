@@ -61,7 +61,7 @@
               </div>
               <div class="col-lg-6 pl-60 md-pl-15">
                   <div class="sec-title3 mb-30">
-                      <h2 class=" title new-title margin-0 pb-15">VISI dan Misi </h2>
+                      <h2 class=" title new-title margin-0 pb-15">Visi dan Misi </h2>
                   </div>
                   <div class="services-part mb-20">
                       <div class="services-icon">
@@ -97,8 +97,8 @@
   <div id="rs-team" class="rs-team home11-style gray-bg3 pt-100 pb-100 md-pt-70 md-pb-70">
       <div class="container">
           <div class="sec-title4 text-center text-center mb-45">
-              <div class="sub-title" style="color:#0c8b51;">Meet Our Staffs</div>
-              <h2 class="title black-color">Excellent Teachers</h2>
+              <div class="sub-title" style="color:#0c8b51;">Temukan Staff Kami</div>
+              <h2 class="title black-color">Guru Terbaik</h2>
           </div>
           <div class="rs-carousel owl-carousel nav-style2" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="4" data-md-device-nav="true" data-md-device-dots="false">
               <?php foreach ($guru_staf as $key => $obj) { ?>
@@ -252,7 +252,7 @@
       <div class="container">
           <div class="sec-title4 mb-50 md-mb-30 text-center">
               <div class="sub-title primary">Testimonial</div>
-              <h2 class="title mb-0">What Our Students Says</h2>
+              <h2 class="title mb-0">Testimoni Wali Murid</h2>
           </div>
           <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
 
@@ -281,8 +281,8 @@
   <div class="rs-event home12style">
       <div class="container">
           <div class="sec-title4 text-center mb-50">
-              <div class="sub-title">Join Events</div>
-              <h2 class="title purple-color">Upcoming Events</h2>
+              <div class="sub-title">Agenda</div>
+              <h2 class="title purple-color">Agenda Mendatang</h2>
           </div>
           <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="7000" data-smart-speed="2000" data-dots="true" data-nav="false" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
               <?php foreach ($agenda as $key => $obj) { ?>
@@ -322,8 +322,8 @@
   <div id="rs-blog" class="rs-blog main-home modify1 pb-100 pt-100 md-pt-70 md-pb-70">
       <div class="container">
           <div class="sec-title4 text-center mb-50">
-              <div class="sub-title"> News Update</div>
-              <h2 class="title">Latest News & Article's</h2>
+              <div class="sub-title"> Berita</div>
+              <h2 class="title">Berita & Artikel Terbaru</h2>
           </div>
           <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
 
@@ -361,11 +361,10 @@
   <div class="rs-about style5 pt-110 pb-110 md-pt-70 md-pb-70">
       <div class="container">
           <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-10">
                   <div class="about-content">
                       <div class="sec-title mb-46 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
-                          <h2 class="title mb-15">Don’t Hesitate to <br>Contact Me</h2>
-                          <div class="sub-title">Contact Me Now</div>
+                          <h2 class="title mb-15">Hubungi Kami</h2>
                       </div>
                       <ul class="contact-part wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
                           <li>
@@ -373,7 +372,7 @@
                                   <img src="<?= site_url('assets/frontend/') ?>images/about/icon/1.png" alt="">
                               </div>
                               <div class="desc">
-                                  <span>Phone Number</span>
+                                  <span>Nomor Telepon</span>
                                   <span><a href="tel:<?= $_setting->phone; ?>"><?= $_setting->phone; ?></a></span>
                               </div>
                           </li>
@@ -382,7 +381,7 @@
                                   <img src="<?= site_url('assets/frontend/') ?>images/about/icon/2.png" alt="">
                               </div>
                               <div class="desc">
-                                  <span>Email Address</span>
+                                  <span>Alamat Email</span>
                                   <span><a href="mailto:<?= $_setting->email; ?>"><?= $_setting->email; ?></a></span>
                               </div>
                           </li>
@@ -391,8 +390,12 @@
                                   <img src="<?= site_url('assets/frontend/') ?>images/about/icon/3.png" alt="">
                               </div>
                               <div class="desc">
-                                  <span>Address</span>
-                                  <span class="address"><?= $_setting->address; ?></span>
+                                  <span>Alamat</span>
+                                  <span class="address">
+                                  Kampus 1 : <?= $_setting->address; ?> </br>
+                                  Kampus 2 : Jl. Sumpil 1 No.53B, Purwodadi, Kec. Blimbing, Kota Malang
+                                  
+                                  </span>
                               </div>
                           </li>
                       </ul>
