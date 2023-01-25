@@ -86,12 +86,12 @@
                                     <i class="fa flaticon-call"></i>
                                     <a href="tel:+<?= $setting->phone; ?>"><?= $setting->phone; ?></a>
                                 </li>
-                                
+
                                 <li><a href="<?= $setting->facebook_url; ?>"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="<?= $setting->twitter_url; ?>"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="<?= $setting->youtube_url; ?>"><i class="fa fa-youtube"></i></a></li>
                                 <li><a href="<?= $setting->instagram_url; ?>"><i class="fa fa-instagram"></i></a></li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -261,53 +261,57 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h4 class="widget-title">Explore</h4>
+                        <h4 class="widget-title">Tentang Kami</h4>
                         <ul class="site-map">
-                            <li><a href="#">eLearning School</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Become A Teacher</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Sambutan Kepala Sekolah</a></li>
+                            <li><a href="#">Profile Sekolah</a></li>
+                            <li><a href="#">Budaya Sekolah</a></li>
+                            <li><a href="#">Visi & Misi</a></li>
+                            <li><a href="#">Guru & Tenaga Pendidik</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h4 class="widget-title">Categories</h4>
+                        <h4 class="widget-title">Kesiswaan</h4>
                         <ul class="site-map">
-                            <li><a href="#">All Courses</a></li>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Genarel Education</a></li>
-                            <li><a href="#">Digital Marketing</a></li>
-                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Alquran</a></li>
+                            <li><a href="#">Ilmubaris</a></li>
+                            <li><a href="#">Komite Sekolah</a></li>
+                            <li><a href="#">Alumni</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h4 class="widget-title">Resources</h4>
+                        <h4 class="widget-title">Informasi</h4>
                         <ul class="site-map">
-                            <li><a href="#">Become A Teacher</a></li>
-                            <li><a href="#">Instructor/Student Profile</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Checkout</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Berita</a></li>
+                            <li><a href="#">Galleri</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                        <h4 class="widget-title">Address</h4>
+                        <h4 class="widget-title">Hubungi Kami</h4>
                         <ul class="address-widget">
                             <li>
                                 <i class="flaticon-location"></i>
-                                <div class="desc"><?= $setting->address; ?></div>
+                                <div class="desc">Kampus 1 : <?= $setting->address; ?></div>
+
+                            </li>
+                            <li>
+                                <i class="flaticon-location"></i>
+                                <div class="desc">Kampus 2 : Jl. Sumpil 1 No.53B, Purwodadi, Kec. Blimbing, Kota Malang
+                                </div>
+
                             </li>
                             <li>
                                 <i class="flaticon-call"></i>
                                 <div class="desc">
-                                    <a href="tel:<?= $setting->phone; ?>"><?= $setting->phone; ?></a> ,
+                                    <a href="tel:<?= $setting->phone; ?>"><?= $setting->phone; ?></a>
                                     <a href="tel:<?= $setting->phone2; ?>"><?= $setting->phone2; ?></a>
                                 </div>
                             </li>
                             <li>
                                 <i class="flaticon-email"></i>
                                 <div class="desc">
-                                    <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a> ,
+                                    <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a>
                                 </div>
                             </li>
                         </ul>
