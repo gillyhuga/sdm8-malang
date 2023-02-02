@@ -4920,6 +4920,7 @@ body .modal-backdrop {
         opacity: 0;
         -webkit-transform: translateY(-100%);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -4931,6 +4932,7 @@ body .modal-backdrop {
         opacity: 0;
         transform: translateY(-100%);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -14109,7 +14111,7 @@ body .modal-backdrop {
 }
 
 .rs-cta.style2 .partition-bg-wrap.inner-page:before {
-    background: url(../../assets/frontend/images/cta/style2/left-bg2.png);
+    background: url(../../assets/frontend/images/sdm8/bg-1.jpg);
     background-size: cover;
 }
 
@@ -18035,6 +18037,7 @@ body .modal-backdrop {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
@@ -18046,6 +18049,7 @@ body .modal-backdrop {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
@@ -18060,6 +18064,7 @@ body .modal-backdrop {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
@@ -18071,6 +18076,7 @@ body .modal-backdrop {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
+
     100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
         opacity: 0;
@@ -18081,6 +18087,7 @@ body .modal-backdrop {
     0% {
         box-shadow: 0 0 0 0 rgba(255, 84, 33, 0.3), 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3);
     }
+
     100% {
         box-shadow: 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3), 0 0 0 8em rgba(255, 84, 33, 0);
     }
@@ -18090,6 +18097,7 @@ body .modal-backdrop {
     0% {
         box-shadow: 0 0 0 0 rgba(255, 84, 33, 0.3), 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3);
     }
+
     100% {
         box-shadow: 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3), 0 0 0 8em rgba(255, 84, 33, 0);
     }
@@ -18110,10 +18118,12 @@ body .modal-backdrop {
         transform: translateY(30px);
         -webkit-transform: translateY(0);
     }
+
     50% {
         transform: translateY(-50px);
         -webkit-transform: translateY(-50px);
     }
+
     100% {
         transform: translateY(0);
         -webkit-transform: translateY(0);
@@ -18125,10 +18135,12 @@ body .modal-backdrop {
         transform: translateY(30px);
         -webkit-transform: translateY(0);
     }
+
     50% {
         transform: translateY(-50px);
         -webkit-transform: translateY(-50px);
     }
+
     100% {
         transform: translateY(0);
         -webkit-transform: translateY(0);
@@ -18150,10 +18162,12 @@ body .modal-backdrop {
         transform: translatex(0);
         -webkit-transform: translatex(0);
     }
+
     50% {
         transform: translateY(-50px);
         -webkit-transform: translatex(-50px);
     }
+
     100% {
         transform: translatex(0);
         -webkit-transform: translatex(0);
@@ -18165,10 +18179,12 @@ body .modal-backdrop {
         transform: translatex(0);
         -webkit-transform: translatex(0);
     }
+
     50% {
         transform: translatex(-50px);
         -webkit-transform: translatex(-50px);
     }
+
     100% {
         transform: translatex(0);
         -webkit-transform: translatex(0);
@@ -18185,6 +18201,7 @@ body .modal-backdrop {
         transform: rotate(0);
         -webkit-transform: rotate(0);
     }
+
     100% {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
@@ -18196,6 +18213,7 @@ body .modal-backdrop {
         transform: rotate(0);
         -webkit-transform: rotate(0);
     }
+
     100% {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
@@ -18212,6 +18230,7 @@ body .modal-backdrop {
         transform: rotate(0);
         -webkit-transform: rotate(0);
     }
+
     100% {
         transform: rotate(-360deg);
         -webkit-transform: rotate(-360deg);
@@ -18223,6 +18242,7 @@ body .modal-backdrop {
         transform: rotate(0);
         -webkit-transform: rotate(0);
     }
+
     100% {
         transform: rotate(-360deg);
         -webkit-transform: rotate(-360deg);
@@ -18238,6 +18258,7 @@ body .modal-backdrop {
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
+
     from {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
@@ -18249,6 +18270,7 @@ body .modal-backdrop {
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
+
     from {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
@@ -18264,6 +18286,7 @@ body .modal-backdrop {
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
@@ -18281,9 +18304,11 @@ body .modal-backdrop {
     0% {
         transform: translateY(30px);
     }
+
     50% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(30px);
     }
@@ -18362,6 +18387,7 @@ body .modal-backdrop {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
+
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
@@ -18371,6 +18397,7 @@ body .modal-backdrop {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
     }
+
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
@@ -18380,6 +18407,7 @@ body .modal-backdrop {
     0% {
         transform: scale(1);
     }
+
     100% {
         transform: scale(1.2);
     }

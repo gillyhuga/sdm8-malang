@@ -15,8 +15,8 @@
               <div class="row align-items-center">
                   <div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
                       <div class="img-part">
-                          <img class="" src="<?= site_url('assets/frontend/')?>images/about/about2orange.png"
-                              alt="About Image">
+                          <img style="border-radius: 4%; max-height:500px; max-width:500px;"
+                              src="<?= site_url('assets/frontend/')?>images/sdm8/bg-2.jpg" alt="About Image">
                       </div>
                   </div>
                   <div class="col-lg-6 pr-70 md-pr-15">
@@ -42,7 +42,7 @@
                   <div class="row y-bottom">
                       <div class="col-lg-6 pb-50 md-pt-70 md-pb-70">
                           <div class="video-wrap">
-                              <a class="popup-videos" href="https://www.youtube.com/watch?v=SgeLZQ4bHrM">
+                              <a class="popup-videos" href="https://www.youtube.com/watch?v=J_9nQ29Fwic">
                                   <i class="fa fa-play"></i>
                                   <h4 class="title mb-0">Putar Video</h4>
                               </a>
@@ -100,8 +100,8 @@
               <div class="row align-items-center">
                   <div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
                       <div class="img-part">
-                          <img class="" src="<?= site_url('assets/frontend/')?>images/about/about2orange.png"
-                              alt="About Image">
+                          <img style="border-radius: 4%; max-height:500px; max-width:500px;"
+                              src="<?= site_url('assets/frontend/')?>images/sdm8/bg-3.jpg" alt="About Image">
                       </div>
                   </div>
                   <div class="col-lg-6 pr-70 md-pr-15">
