@@ -1,9 +1,9 @@
       <!-- Breadcrumbs Start -->
       <div class="rs-breadcrumbs breadcrumbs-overlay">
           <div class="breadcrumbs-img">
-              <img src="<?= site_url('assets/frontend/')?>images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+              <img src="<?= site_url('assets/frontend/')?>images/breadcrumbs/1.jpg" alt="Breadcrumbs Image">
           </div>
-          <div class="breadcrumbs-text white-color">
+          <div class="breadcrumbs-text ">
               <h1 class="page-title">Sambutan Kepala Sekolah</h1>
           </div>
       </div>

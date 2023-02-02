@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <?php $setting = $this->db->get_where('settings', array('id' => 1))->row(); ?>
+
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
@@ -39,13 +40,13 @@
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="<?= site_url('assets/frontend/')?>css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" />
 </head>
 
 <body class="defult-home">
 
     <!--Preloader area start here-->
-    <div id="loader" class="loader green-color" >
+    <div id="loader" class="loader green-color">
         <div class="loader-container">
             <div class='loader-icon'>
                 <img src="<?= __UPLOAD ?>original/<?= $setting->logo; ?>" alt="">
@@ -136,12 +137,13 @@
                                                     <li class="it-menu"><a href="#">Struktur organisasi</a></li>
                                                     <li class="it-menu"><a href="#">Komite sekolah</a></li>
                                                     <li class="it-menu"><a href="#">UPT Sekolah</a></li>
-                                                    <li class="it-menu"><a href="#">ALumni</a></li>
+                                                    <li class="it-menu"><a href="#">Alumni</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">E-Library</a>
                                                 <ul class="sub-menu">
-                                                    <li class="it-menu"><a href="home/ebook_list">Karya Guru dan Siswa</a></li>
+                                                    <li class="it-menu"><a href="home/ebook_list">Karya Guru dan
+                                                            Siswa</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">Informasi</a>
@@ -161,7 +163,8 @@
                             <div class="expand-btn-inner">
                                 <ul>
                                     <li>
-                                        <a class="hidden-xs rs-search" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">
+                                        <a class="hidden-xs rs-search" data-bs-toggle="modal"
+                                            data-bs-target="#searchModal" href="#">
                                             <i class="flaticon-search"></i>
                                         </a>
                                     </li>
@@ -183,7 +186,8 @@
                     </div>
                 </div>
                 <div class="canvas-logo">
-                    <a href="index.html"><img src="<?= site_url('assets/frontend/')?>images/logo-dark.png" alt="logo"></a>
+                    <a href="index.html"><img src="<?= site_url('assets/frontend/')?>images/logo-dark.png"
+                            alt="logo"></a>
                 </div>
                 <div class="offcanvas-text">
                     <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo by the
@@ -191,22 +195,28 @@
                 </div>
                 <div class="offcanvas-gallery">
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/1.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/1.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/1.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/1.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/2.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/2.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/2.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/2.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/3.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/3.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/3.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/3.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/4.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/4.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/4.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/4.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/5.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/5.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/5.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/5.jpg" alt=""></a>
                     </div>
                     <div class="gallery-img">
-                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/6.jpg"><img src="<?= site_url('assets/frontend/')?>images/gallery/6.jpg" alt=""></a>
+                        <a class="image-popup" href="<?= site_url('assets/frontend/')?>images/gallery/6.jpg"><img
+                                src="<?= site_url('assets/frontend/')?>images/gallery/6.jpg" alt=""></a>
                     </div>
                 </div>
                 <div class="map-img">
@@ -235,93 +245,95 @@
     </div>
     <!-- Main content End -->
     <!-- Footer Start -->
-     <!-- Footer Start -->
-     <footer id="rs-footer" class="rs-footer">
-            <div class="footer-top no-gap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <h4 class="widget-title">Explore</h4>
-                            <ul class="site-map">
-                                <li><a href="#">eLearning School</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Courses</a></li>
-                                <li><a href="#">Become A Teacher</a></li>
-                                <li><a href="#">Blog</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <h4 class="widget-title">Categories</h4>
-                            <ul class="site-map">
-                                <li><a href="#">All Courses</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Genarel Education</a></li>
-                                <li><a href="#">Digital Marketing</a></li>
-                                <li><a href="#">Web Design</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                            <h4 class="widget-title">Resources</h4>
-                            <ul class="site-map">
-                                <li><a href="#">Become A Teacher</a></li>
-                                <li><a href="#">Instructor/Student Profile</a></li>
-                                <li><a href="#">Courses</a></li>
-                                <li><a href="#">Checkout</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                            <h4 class="widget-title">Address</h4>
-                            <ul class="address-widget">
-                                <li>
-                                    <i class="flaticon-location"></i>
-                                    <div class="desc"><?= $setting->address; ?></div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-call"></i>
-                                    <div class="desc">
-                                        <a href="tel:<?= $setting->phone; ?>"><?= $setting->phone; ?></a> , 
-                                        <a href="tel:<?= $setting->phone2; ?>"><?= $setting->phone2; ?></a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-email"></i>
-                                    <div class="desc">
-                                        <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a> , 
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+    <!-- Footer Start -->
+    <footer id="rs-footer" class="rs-footer">
+        <div class="footer-top no-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
+                        <h4 class="widget-title">Explore</h4>
+                        <ul class="site-map">
+                            <li><a href="#">eLearning School</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Become A Teacher</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
+                        <h4 class="widget-title">Categories</h4>
+                        <ul class="site-map">
+                            <li><a href="#">All Courses</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Genarel Education</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Web Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
+                        <h4 class="widget-title">Resources</h4>
+                        <ul class="site-map">
+                            <li><a href="#">Become A Teacher</a></li>
+                            <li><a href="#">Instructor/Student Profile</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+                        <h4 class="widget-title">Address</h4>
+                        <ul class="address-widget">
+                            <li>
+                                <i class="flaticon-location"></i>
+                                <div class="desc"><?= $setting->address; ?></div>
+                            </li>
+                            <li>
+                                <i class="flaticon-call"></i>
+                                <div class="desc">
+                                    <a href="tel:<?= $setting->phone; ?>"><?= $setting->phone; ?></a> ,
+                                    <a href="tel:<?= $setting->phone2; ?>"><?= $setting->phone2; ?></a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="flaticon-email"></i>
+                                <div class="desc">
+                                    <a href="mailto:<?= $setting->email; ?>"><?= $setting->email; ?></a> ,
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-4 md-mb-20">
-                            <div class="footer-logo md-text-center">
-                                <a href="index.html"><img src="<?= __UPLOAD; ?>original/<?= $setting->logo;?>" alt="<?= $setting->logo;?>"></a>
-                            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row y-middle">
+                    <div class="col-lg-4 md-mb-20">
+                        <div class="footer-logo md-text-center">
+                            <a href="index.html"><img src="<?= __UPLOAD; ?>original/<?= $setting->logo;?>"
+                                    alt="<?= $setting->logo;?>"></a>
                         </div>
-                        <div class="col-lg-4 md-mb-20">
-                            <div class="copyright text-center md-text-start">
-                                <p>&copy; <?= date('Y'); ?> All Rights Reserved. Developed By <a href="https://unimasoft.id">Unimasoft.ID</a></p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4 md-mb-20">
+                        <div class="copyright text-center md-text-start">
+                            <p>&copy; <?= date('Y'); ?> All Rights Reserved. Developed By <a
+                                    href="https://unimasoft.id">Unimasoft.ID</a></p>
                         </div>
-                        <div class="col-lg-4 text-end md-text-start">
-                            <ul class="footer-social">
-                                <li><a href="<?= $setting->facebook_url; ?>"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="<?= $setting->twitter_url; ?>"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="<?= $setting->instagram_url; ?>"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="<?= $setting->google_plus_url; ?>"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="<?= $setting->youtube_url; ?>"><i class="fa fa-youtube"></i></a></li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="col-lg-4 text-end md-text-start">
+                        <ul class="footer-social">
+                            <li><a href="<?= $setting->facebook_url; ?>"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="<?= $setting->twitter_url; ?>"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="<?= $setting->instagram_url; ?>"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="<?= $setting->google_plus_url; ?>"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="<?= $setting->youtube_url; ?>"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Footer End -->
+        </div>
+    </footer>
+    <!-- Footer End -->
     <!-- Footer End -->
 
 
@@ -333,7 +345,8 @@
 
 
     <!-- Search Modal Start -->
-    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+        aria-hidden="true">
         <button type="button" class="close" data-bs-dismiss="modal">
             <span class="flaticon-cross"></span>
         </button>

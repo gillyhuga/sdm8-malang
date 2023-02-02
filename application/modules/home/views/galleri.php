@@ -2,7 +2,7 @@
       <div class="rs-breadcrumbs breadcrumbs-overlay">
           <div class="breadcrumbs-img">
           </div>
-          <div class="breadcrumbs-text white-color">
+          <div class="breadcrumbs-text ">
               <h1 class="page-title">Galleri</h1>
           </div>
       </div>

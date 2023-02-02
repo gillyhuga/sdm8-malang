@@ -147,7 +147,7 @@
                                                     <li><a href="<?= site_url('home/ismubaris'); ?>">Ismubaris</a></li>
                                                     <li><a href="<?= site_url('home/komite'); ?>">Komite sekolah</a>
                                                     </li>
-                                                    <li><a href="<?= site_url('home/alumni'); ?>">ALumni</a></li>
+                                                    <li><a href="<?= site_url('home/alumni'); ?>">Alumni</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
