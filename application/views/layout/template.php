@@ -140,7 +140,7 @@
                                                             Pendidik</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            <!-- <li class="menu-item-has-children">
                                                 <a href="#">Kesiswaan</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="<?= site_url('home/alquran'); ?>">Alquran</a></li>
@@ -149,7 +149,7 @@
                                                     </li>
                                                     <li><a href="<?= site_url('home/alumni'); ?>">Alumni</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                             <li class="menu-item-has-children">
                                                 <a href="#">E-Library</a>
                                                 <ul class="sub-menu">
@@ -271,21 +271,21 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                        <h4 class="widget-title">Kesiswaan</h4>
-                        <ul class="site-map">
-                            <li><a href="<?= site_url('home/alquran'); ?>">Alquran</a></li>
-                            <li><a href="<?= site_url('home/ismubaris'); ?>">Ilmubaris</a></li>
-                            <li><a href="<?= site_url('home/komite'); ?>">Komite Sekolah</a></li>
-                            <li><a href="<?= site_url('home/alumni'); ?>">Alumni</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                         <h4 class="widget-title">Informasi</h4>
                         <ul class="site-map">
                             <li><a href="<?= site_url('home/agenda'); ?>">Agenda</a></li>
                             <li><a href="<?= site_url('home/berita'); ?>">Berita</a></li>
                             <li><a href="<?= site_url('home/galeri'); ?>">Galleri</a></li>
                         </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
+                        <!-- <h4 class="widget-title">Kesiswaan</h4>
+                        <ul class="site-map">
+                            <li><a href="<?= site_url('home/alquran'); ?>">Alquran</a></li>
+                            <li><a href="<?= site_url('home/ismubaris'); ?>">Ilmubaris</a></li>
+                            <li><a href="<?= site_url('home/komite'); ?>">Komite Sekolah</a></li>
+                            <li><a href="<?= site_url('home/alumni'); ?>">Alumni</a></li>
+                        </ul> -->
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
                         <h4 class="widget-title">Hubungi Kami</h4>
