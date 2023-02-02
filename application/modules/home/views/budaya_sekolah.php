@@ -12,7 +12,7 @@
 
 
       <!-- Choose Section Start -->
-      <div class="why-choose-us style3">
+      <div class="why-choose-us style3 pt-100 pb-100 md-pt-80 md-pb-80">
           <div class="container">
               <div class="row align-items-center">
                   <div class="col-lg-12 pl-60 md-pl-15">
@@ -26,8 +26,8 @@
                           <div class="services-text">
                               <h2 class="title">Aqidah yang kuat</h2><br>
                               <?php $no=1;  foreach ($budaya_sekolah as $key => $obj) { ?>
-                                  <?php if ($obj->kategori != '1')  continue; ?>
-                                  <p class="services-txt">(<?= $no++; ?>).  <?= $obj->deskripsi; ?></p> <br>
+                              <?php if ($obj->kategori != '1')  continue; ?>
+                              <p class="services-txt">(<?= $no++; ?>). <?= $obj->deskripsi; ?></p> <br>
                               <?php } ?>
                           </div>
                       </div>
@@ -38,8 +38,8 @@
                           <div class="services-text">
                               <h2 class="title">Ibadah yang benar</h2><br>
                               <?php $no=1; foreach ($budaya_sekolah as $key => $obj) { ?>
-                                  <?php if ($obj->kategori != '2')  continue; ?>
-                                  <p class="services-txt">(<?= $no++; ?>).  <?= $obj->deskripsi; ?></p> <br>
+                              <?php if ($obj->kategori != '2')  continue; ?>
+                              <p class="services-txt">(<?= $no++; ?>). <?= $obj->deskripsi; ?></p> <br>
                               <?php } ?>
                           </div>
                       </div>
@@ -50,8 +50,8 @@
                           <div class="services-text">
                               <h2 class="title">Akhlak karimah</h2><br>
                               <?php $no=1; foreach ($budaya_sekolah as $key => $obj) { ?>
-                                  <?php if ($obj->kategori != '3')  continue; ?>
-                                  <p class="services-txt">(<?= $no++; ?>).  <?= $obj->deskripsi; ?></p> <br>
+                              <?php if ($obj->kategori != '3')  continue; ?>
+                              <p class="services-txt">(<?= $no++; ?>). <?= $obj->deskripsi; ?></p> <br>
                               <?php } ?>
                           </div>
                       </div>
@@ -62,8 +62,8 @@
                           <div class="services-text">
                               <h2 class="title">Disiplin dan mandiri</h2><br>
                               <?php $no=1; foreach ($budaya_sekolah as $key => $obj) { ?>
-                                  <?php if ($obj->kategori != '4')  continue; ?>
-                                  <p class="services-txt">(<?= $no++; ?>).  <?= $obj->deskripsi; ?></p> <br>
+                              <?php if ($obj->kategori != '4')  continue; ?>
+                              <p class="services-txt">(<?= $no++; ?>). <?= $obj->deskripsi; ?></p> <br>
                               <?php } ?>
                           </div>
                       </div>
