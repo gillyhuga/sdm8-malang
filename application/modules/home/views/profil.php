@@ -69,19 +69,19 @@
               <div class="row couter-area bg8">
                   <div class="col-lg-3 col-md-6 md-mb-30">
                       <div class="counter-item text-center">
-                          <h2 class="rs-count pr-0">120</h2>
+                          <h2 class="rs-count pr-0 plus">5740</h2>
                           <h4 class="title mb-0">Lulusan</h4>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 md-mb-30">
                       <div class="counter-item text-center">
-                          <h2 class="rs-count pr-0">47</h2>
+                          <h2 class="rs-count pr-0 plus">47</h2>
                           <h4 class="title mb-0">Guru & Karyawan</h4>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6 sm-mb-30">
                       <div class="counter-item text-center">
-                          <h2 class="rs-count pr-0">536</h2>
+                          <h2 class="rs-count pr-0 plus">536</h2>
                           <h4 class="title mb-0">Siswa</h4>
                       </div>
                   </div>
@@ -94,6 +94,7 @@
               </div>
           </div>
       </div>
+      <!-- Counter Section Start -->
       <!-- Counter Section Start -->
       <div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
           <div class="container">
