@@ -263,28 +263,28 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                         <h4 class="widget-title">Tentang Kami</h4>
                         <ul class="site-map">
-                            <li><a href="#">Sambutan Kepala Sekolah</a></li>
-                            <li><a href="#">Profile Sekolah</a></li>
-                            <li><a href="#">Budaya Sekolah</a></li>
-                            <li><a href="#">Visi & Misi</a></li>
-                            <li><a href="#">Guru & Tenaga Pendidik</a></li>
+                            <li><a href="<?= site_url('home/sambutan_kepala'); ?>">Sambutan Kepala Sekolah</a></li>
+                            <li><a href="<?= site_url('home/profil'); ?>">Profile Sekolah</a></li>
+                            <li><a href="<?= site_url('home/budaya_sekolah'); ?>">Budaya Sekolah</a></li>
+                            <li><a href="<?= site_url('home/visi_misi'); ?>">Visi & Misi</a></li>
+                            <li><a href="<?= site_url('home/guru'); ?>">Guru & Tenaga Pendidik</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                         <h4 class="widget-title">Kesiswaan</h4>
                         <ul class="site-map">
-                            <li><a href="#">Alquran</a></li>
-                            <li><a href="#">Ilmubaris</a></li>
-                            <li><a href="#">Komite Sekolah</a></li>
-                            <li><a href="#">Alumni</a></li>
+                            <li><a href="<?= site_url('home/alquran'); ?>">Alquran</a></li>
+                            <li><a href="<?= site_url('home/ismubaris'); ?>">Ilmubaris</a></li>
+                            <li><a href="<?= site_url('home/komite'); ?>">Komite Sekolah</a></li>
+                            <li><a href="<?= site_url('home/alumni'); ?>">Alumni</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                         <h4 class="widget-title">Informasi</h4>
                         <ul class="site-map">
-                            <li><a href="#">Agenda</a></li>
-                            <li><a href="#">Berita</a></li>
-                            <li><a href="#">Galleri</a></li>
+                            <li><a href="<?= site_url('home/agenda'); ?>">Agenda</a></li>
+                            <li><a href="<?= site_url('home/berita'); ?>">Berita</a></li>
+                            <li><a href="<?= site_url('home/galeri'); ?>">Galleri</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
